@@ -13,19 +13,19 @@ const toursMx = {
     acomodacionIncluida: true,
     transporteIncluido: true,
     edadMinima: 18,
-    requisitos: {Object
+    requisitos: {
             seguroDeViaje: true
-        };
-    duracionTour: 20,
+        },
+    duracionTour: 30,
     opiniones: null,
     calificacion: null,
-    precioUSD: 600,
+    precioUSD: 650,
     fechasDisponibles: Object,
-    - "2019": Array of Objects        
+    - "2019": Array, Objects,        
         - id: String,
         - fechaInicio: String,
-        - fechaFin: String
+        - fechaFin: String,
         - asientosDisponibles: Number,
         - asientosReservados: Number,
-        - precioRealUSD: Number
+        - precioRealUSD: Number,
 }
